@@ -1,0 +1,7 @@
+create database banco_imagens;
+use banco_imagens;
+create table imagens(
+id BIGINT auto_increment primary key not null,
+nome varchar(100) not null,
+url varchar(2083) not null
+);
